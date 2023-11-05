@@ -12,7 +12,7 @@ func main() {
 		return c.SendString("Hello, World 👋!")
 	})
 
-	app.Get("/account", func(c *fiber.Ctx) error {
+	app.Get("/account/:appid/:token", func(c *fiber.Ctx) error {
 		account := account.Account{}
 		account.APPID = c.Params("appid")
 		account.Token = c.Params("token")
@@ -20,7 +20,7 @@ func main() {
 		return c.JSON(account)
 	})
 
-	app.Get("/account/new", func(c *fiber.Ctx) error {
+	app.Get("/account/new/:appid/:token", func(c *fiber.Ctx) error {
 		account := account.Account{}
 		account.APPID = c.Params("appid")
 		account.Token = c.Params("token")
