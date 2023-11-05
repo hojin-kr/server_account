@@ -24,6 +24,11 @@ func main() {
 		account := account.Account{}
 		account.APPID = c.Params("appid")
 		account.Token = c.Params("token")
+		// get account if not exist new account
+		account.GetAccount()
+		if account.UUID != "" {
+			return c.JSON(account)
+		}
 		account.NewAccount()
 		return c.JSON(account)
 	})
