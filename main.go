@@ -12,14 +12,14 @@ func main() {
 		return c.SendString("Hello, World 👋!")
 	})
 
-	app.Get("/account/:appid/:token", func(c *fiber.Ctx) error {
+	app.Get("/account/:token", func(c *fiber.Ctx) error {
 		account := account.Account{}
 		account.Token = c.Params("token")
 		account.GetAccount()
 		return c.JSON(account)
 	})
 
-	app.Get("/account/new/:appid/:token", func(c *fiber.Ctx) error {
+	app.Get("/account/new/:token", func(c *fiber.Ctx) error {
 		account := account.Account{}
 		account.Token = c.Params("token")
 		// get account if not exist new account

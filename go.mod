@@ -4,7 +4,7 @@ go 1.21.0
 
 require (
 	github.com/gofiber/fiber/v2 v2.50.0
-	github.com/hojin-kr/account v0.0.0-20231105144058-268673a78b79
+	github.com/hojin-kr/account v0.0.0-20231106145446-069c260db1c6
 )
 
 require (
@@ -20,7 +20,7 @@ require (
 	github.com/google/uuid v1.4.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.1 // indirect
 	github.com/googleapis/gax-go/v2 v2.12.0 // indirect
-	github.com/hojin-kr/datastore v0.0.0-20231031141918-105c71a8e329 // indirect
+	github.com/hojin-kr/datastore v0.0.0-20231106164221-3aac1ed50f82 // indirect
 	github.com/klauspost/compress v1.16.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect

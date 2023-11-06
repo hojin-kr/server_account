@@ -57,12 +57,14 @@ github.com/googleapis/enterprise-certificate-proxy v0.3.1 h1:SBWmZhjUDRorQxrN0nw
 github.com/googleapis/enterprise-certificate-proxy v0.3.1/go.mod h1:VLSiSSBs/ksPL8kq3OBOQ6WRI2QnaFynd1DCjZ62+V0=
 github.com/googleapis/gax-go/v2 v2.12.0 h1:A+gCJKdRfqXkr+BIRGtZLibNXf0m1f9E4HG56etFpas=
 github.com/googleapis/gax-go/v2 v2.12.0/go.mod h1:y+aIqrI5eb1YGMVJfuV3185Ts/D7qKpsEkdD5+I6QGU=
-github.com/hojin-kr/account v0.0.0-20231031154212-6143f060a1a8 h1:vFnEPEHhtWMLRAmqNH326Y4SU1thSxeD34r+yySAGKc=
-github.com/hojin-kr/account v0.0.0-20231031154212-6143f060a1a8/go.mod h1:H2Fb3PUXQf35HV7a5qxbAZhVPW0CZp78EdNv4oF3UEM=
 github.com/hojin-kr/account v0.0.0-20231105144058-268673a78b79 h1:AX+QX5tyGcmtbkJQbb9BpAVZFs+DRZ6Hr3eRca+qxt8=
 github.com/hojin-kr/account v0.0.0-20231105144058-268673a78b79/go.mod h1:kXrpBnnSIDVRK0jZ1yviAtTZ7jbRrhchySMP85HZlzc=
+github.com/hojin-kr/account v0.0.0-20231106145446-069c260db1c6 h1:noIACm41uJwR03NGWdHvRQR59Rx6uMB4morWFigUXuQ=
+github.com/hojin-kr/account v0.0.0-20231106145446-069c260db1c6/go.mod h1:ZgpfN/+XPlSOzGSV7th60uDtXv3tinUWtyyKhPXdfIQ=
 github.com/hojin-kr/datastore v0.0.0-20231031141918-105c71a8e329 h1:YI6FKpGTq2a2triXoatTE7vE6CGSueKpuHQOkEAopwg=
 github.com/hojin-kr/datastore v0.0.0-20231031141918-105c71a8e329/go.mod h1:G9upWOfeJEjEoc+80I88ldRLEtimu2A+NZodqOzSJ4g=
+github.com/hojin-kr/datastore v0.0.0-20231106164221-3aac1ed50f82 h1:jBHw8dkLAsI+Am3ynkt7trqZulpjT2iiYPBjyFB97So=
+github.com/hojin-kr/datastore v0.0.0-20231106164221-3aac1ed50f82/go.mod h1:wrdJRP7tcStaYhrvGwczx9hKTTP7RfsthB2Qzhliblg=
 github.com/klauspost/compress v1.16.7 h1:2mk3MPGNzKyxErAw8YaohYh69+pa4sIQSC0fPGCFR9I=
 github.com/klauspost/compress v1.16.7/go.mod h1:ntbaceVETuRiXiv4DpjP66DpAtAGkEQskQzEyD//IeE=
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=
